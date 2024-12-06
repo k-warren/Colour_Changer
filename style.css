@@ -17,3 +17,10 @@ button{
           height: 40px;
           margin: 5px;
 }
+
+.btn-div{
+	  max-width: fit-content;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 400px
+}
