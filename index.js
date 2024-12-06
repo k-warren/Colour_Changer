@@ -2,6 +2,7 @@ const body = document.getElementsByTagName('body')[0];
 
 function setColor(name) {
           body.style.backgroundColor = name;
+	  console.log("Color changed to " + name);
 }
 
 function randomColor() {
@@ -11,4 +12,5 @@ function randomColor() {
 
           const color = `rgb(${red}, ${green}, ${blue})`
           body.style.backgroundColor = color;
+	  console.log("Colour changed to " + color);
 }
