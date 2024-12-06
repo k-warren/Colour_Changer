@@ -10,6 +10,9 @@
 #white{
           background-color: white;
 }
+#random{
+	  background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+}
 
 button{
           border-radius: 5px;
